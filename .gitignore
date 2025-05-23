@@ -3,9 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 node_modules/
-.parcel-cache/
+.src/
 images/
-dist/
+.parcel-cache/
 
 # User-specific files
 *.rsuser
