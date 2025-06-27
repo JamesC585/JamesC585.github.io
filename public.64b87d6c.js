@@ -696,7 +696,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appJsxDefault.default)
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","bootstrap/dist/css/bootstrap.min.css":"i5LP7","./App.jsx":"f8V2Q","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","bootstrap-icons/font/bootstrap-icons.css":"87yWV"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","bootstrap/dist/css/bootstrap.min.css":"i5LP7","bootstrap-icons/font/bootstrap-icons.css":"87yWV","./App.jsx":"f8V2Q","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -16095,7 +16095,7 @@ module.exports = require("b0f0e6b9e8349dac");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{"6f0162e9ab224cd4":"jMk1U"}],"i5LP7":[function() {},{}],"f8V2Q":[function(require,module,exports,__globalThis) {
+},{"6f0162e9ab224cd4":"jMk1U"}],"i5LP7":[function() {},{}],"87yWV":[function() {},{}],"f8V2Q":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$be2d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$be2d.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -16142,7 +16142,209 @@ $RefreshReg$(_c, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./assets/Sidebar":"bqfS9","./assets/Main":"ccElM"}],"jnFvT":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./assets/Sidebar":"bqfS9","./assets/Main":"ccElM","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"bqfS9":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$230a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$230a.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$230a.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Sidebar);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _sidebarCss = require("./Sidebar.css");
+function Sidebar() {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+        className: "bg-dark min-vh-100 d-flex flex-column align-items-center justify-content-top sidebar",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                className: "btn mt-5 btn-primary rounded-circle",
+                style: {
+                    width: "200px",
+                    height: "200px"
+                },
+                children: "hello"
+            }, void 0, false, {
+                fileName: "src/assets/Sidebar.jsx",
+                lineNumber: 7,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: "h1 text-white pt-3",
+                children: "James Cao"
+            }, void 0, false, {
+                fileName: "src/assets/Sidebar.jsx",
+                lineNumber: 8,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                id: "displayButton",
+                children: "Software Developer"
+            }, void 0, false, {
+                fileName: "src/assets/Sidebar.jsx",
+                lineNumber: 9,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
+                id: "lineBreak"
+            }, void 0, false, {
+                fileName: "src/assets/Sidebar.jsx",
+                lineNumber: 10,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                id: "contactButton",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                        className: "bi bi-envelope-fill"
+                    }, void 0, false, {
+                        fileName: "src/assets/Sidebar.jsx",
+                        lineNumber: 12,
+                        columnNumber: 9
+                    }, this),
+                    "Contact Me!"
+                ]
+            }, void 0, true, {
+                fileName: "src/assets/Sidebar.jsx",
+                lineNumber: 11,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: "infoDiv",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                        className: "bi bi-envelope picture"
+                    }, void 0, false, {
+                        fileName: "src/assets/Sidebar.jsx",
+                        lineNumber: 16,
+                        columnNumber: 9
+                    }, this),
+                    "jamesc17@uci.edu"
+                ]
+            }, void 0, true, {
+                fileName: "src/assets/Sidebar.jsx",
+                lineNumber: 15,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: "infoDiv",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                        className: "bi bi-telephone picture"
+                    }, void 0, false, {
+                        fileName: "src/assets/Sidebar.jsx",
+                        lineNumber: 20,
+                        columnNumber: 9
+                    }, this),
+                    "+1(626) 228-8279"
+                ]
+            }, void 0, true, {
+                fileName: "src/assets/Sidebar.jsx",
+                lineNumber: 19,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: "infoDiv",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                        className: "bi bi-gift picture"
+                    }, void 0, false, {
+                        fileName: "src/assets/Sidebar.jsx",
+                        lineNumber: 24,
+                        columnNumber: 9
+                    }, this),
+                    "June 29th 2003"
+                ]
+            }, void 0, true, {
+                fileName: "src/assets/Sidebar.jsx",
+                lineNumber: 23,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: "infoDiv",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                        className: "bi bi-geo-alt picture"
+                    }, void 0, false, {
+                        fileName: "src/assets/Sidebar.jsx",
+                        lineNumber: 28,
+                        columnNumber: 9
+                    }, this),
+                    "Rancho Cucamonga, CA"
+                ]
+            }, void 0, true, {
+                fileName: "src/assets/Sidebar.jsx",
+                lineNumber: 27,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                id: "displayButtons",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "https://www.linkedin.com/in/james-cao-7725bb314/",
+                        target: "_blank",
+                        rel: "noopener noreferrer",
+                        style: {
+                            color: "rgb(250, 192, 4)"
+                        },
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                            className: "bi bi-linkedin"
+                        }, void 0, false, {
+                            fileName: "src/assets/Sidebar.jsx",
+                            lineNumber: 33,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/assets/Sidebar.jsx",
+                        lineNumber: 32,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        href: "https://github.com/JamesC585",
+                        target: "_blank",
+                        rel: "noopener noreferrer",
+                        style: {
+                            color: "rgb(250, 192, 4)"
+                        },
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                            className: "bi bi-github"
+                        }, void 0, false, {
+                            fileName: "src/assets/Sidebar.jsx",
+                            lineNumber: 36,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "src/assets/Sidebar.jsx",
+                        lineNumber: 35,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/assets/Sidebar.jsx",
+                lineNumber: 31,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/assets/Sidebar.jsx",
+        lineNumber: 6,
+        columnNumber: 5
+    }, this);
+}
+_c = Sidebar;
+var _c;
+$RefreshReg$(_c, "Sidebar");
+
+  $parcel$ReactRefreshHelpers$230a.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Sidebar.css":"fX1BW","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"fX1BW":[function() {},{}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -18450,209 +18652,7 @@ function $da9882e673ac146b$var$ErrorOverlay() {
     return null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"bqfS9":[function(require,module,exports,__globalThis) {
-var $parcel$ReactRefreshHelpers$230a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-$parcel$ReactRefreshHelpers$230a.init();
-var prevRefreshReg = globalThis.$RefreshReg$;
-var prevRefreshSig = globalThis.$RefreshSig$;
-$parcel$ReactRefreshHelpers$230a.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>Sidebar);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-var _sidebarCss = require("./Sidebar.css");
-function Sidebar() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-        className: "bg-dark min-vh-100 d-flex flex-column align-items-center justify-content-top sidebar",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                className: "btn mt-5 btn-primary rounded-circle",
-                style: {
-                    width: "200px",
-                    height: "200px"
-                },
-                children: "hello"
-            }, void 0, false, {
-                fileName: "src/assets/Sidebar.jsx",
-                lineNumber: 7,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: "h1 text-white pt-3",
-                children: "James Cao"
-            }, void 0, false, {
-                fileName: "src/assets/Sidebar.jsx",
-                lineNumber: 8,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                id: "displayButton",
-                children: "Software Developer"
-            }, void 0, false, {
-                fileName: "src/assets/Sidebar.jsx",
-                lineNumber: 9,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {
-                id: "lineBreak"
-            }, void 0, false, {
-                fileName: "src/assets/Sidebar.jsx",
-                lineNumber: 10,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                id: "contactButton",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                        className: "bi bi-envelope-fill"
-                    }, void 0, false, {
-                        fileName: "src/assets/Sidebar.jsx",
-                        lineNumber: 12,
-                        columnNumber: 9
-                    }, this),
-                    "Contact Me!"
-                ]
-            }, void 0, true, {
-                fileName: "src/assets/Sidebar.jsx",
-                lineNumber: 11,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: "infoDiv",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                        className: "bi bi-envelope picture"
-                    }, void 0, false, {
-                        fileName: "src/assets/Sidebar.jsx",
-                        lineNumber: 16,
-                        columnNumber: 9
-                    }, this),
-                    "jamesc17@uci.edu"
-                ]
-            }, void 0, true, {
-                fileName: "src/assets/Sidebar.jsx",
-                lineNumber: 15,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: "infoDiv",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                        className: "bi bi-telephone picture"
-                    }, void 0, false, {
-                        fileName: "src/assets/Sidebar.jsx",
-                        lineNumber: 20,
-                        columnNumber: 9
-                    }, this),
-                    "+1(626) 228-8279"
-                ]
-            }, void 0, true, {
-                fileName: "src/assets/Sidebar.jsx",
-                lineNumber: 19,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: "infoDiv",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                        className: "bi bi-gift picture"
-                    }, void 0, false, {
-                        fileName: "src/assets/Sidebar.jsx",
-                        lineNumber: 24,
-                        columnNumber: 9
-                    }, this),
-                    "June 29th 2003"
-                ]
-            }, void 0, true, {
-                fileName: "src/assets/Sidebar.jsx",
-                lineNumber: 23,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: "infoDiv",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                        className: "bi bi-geo-alt picture"
-                    }, void 0, false, {
-                        fileName: "src/assets/Sidebar.jsx",
-                        lineNumber: 28,
-                        columnNumber: 9
-                    }, this),
-                    "Rancho Cucamonga, CA"
-                ]
-            }, void 0, true, {
-                fileName: "src/assets/Sidebar.jsx",
-                lineNumber: 27,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                id: "displayButtons",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "https://www.linkedin.com/in/james-cao-7725bb314/",
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        style: {
-                            color: "rgb(250, 192, 4)"
-                        },
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                            className: "bi bi-linkedin"
-                        }, void 0, false, {
-                            fileName: "src/assets/Sidebar.jsx",
-                            lineNumber: 33,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/assets/Sidebar.jsx",
-                        lineNumber: 32,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        href: "https://github.com/JamesC585",
-                        target: "_blank",
-                        rel: "noopener noreferrer",
-                        style: {
-                            color: "rgb(250, 192, 4)"
-                        },
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
-                            className: "bi bi-github"
-                        }, void 0, false, {
-                            fileName: "src/assets/Sidebar.jsx",
-                            lineNumber: 36,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "src/assets/Sidebar.jsx",
-                        lineNumber: 35,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/assets/Sidebar.jsx",
-                lineNumber: 31,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/assets/Sidebar.jsx",
-        lineNumber: 6,
-        columnNumber: 5
-    }, this);
-}
-_c = Sidebar;
-var _c;
-$RefreshReg$(_c, "Sidebar");
-
-  $parcel$ReactRefreshHelpers$230a.postlude(module);
-} finally {
-  globalThis.$RefreshReg$ = prevRefreshReg;
-  globalThis.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Sidebar.css":"fX1BW","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"fX1BW":[function() {},{}],"ccElM":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"ccElM":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$4749 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$4749.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -18748,7 +18748,7 @@ $RefreshReg$(_c, "Main");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Navbar":"2hSNy","./Main.css":"gJZfK","./AboutMe":"fCeEC"}],"2hSNy":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Navbar":"2hSNy","./AboutMe":"fCeEC","./Main.css":"gJZfK","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"2hSNy":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$6a3d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$6a3d.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -18873,7 +18873,7 @@ $RefreshReg$(_c, "Navbar");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"./Navbar.css":"9eY7W","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react/jsx-dev-runtime":"dVPUn","bootstrap/dist/js/bootstrap.bundle.min.js":"joWv1"}],"9eY7W":[function() {},{}],"joWv1":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","./Navbar.css":"9eY7W","bootstrap/dist/js/bootstrap.bundle.min.js":"joWv1","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"9eY7W":[function() {},{}],"joWv1":[function(require,module,exports,__globalThis) {
 /*!
   * Bootstrap v5.3.6 (https://getbootstrap.com/)
   * Copyright 2011-2025 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
@@ -21911,7 +21911,7 @@ $RefreshReg$(_c, "Navbar");
     };
 });
 
-},{}],"gJZfK":[function() {},{}],"fCeEC":[function(require,module,exports,__globalThis) {
+},{}],"fCeEC":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$93e6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$93e6.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -21925,9 +21925,9 @@ parcelHelpers.export(exports, "default", ()=>AboutMe);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
+var _card = require("./Card");
+var _cardDefault = parcelHelpers.interopDefault(_card);
 var _aboutMeCss = require("./AboutMe.css");
-var _bookJpg = require("../images/book.jpg");
-var _bookJpgDefault = parcelHelpers.interopDefault(_bookJpg);
 function AboutMe() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "container-fluid",
@@ -22007,54 +22007,37 @@ function AboutMe() {
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
-                className: "hobbiesList intro",
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "card m-3 bg-dark",
-                    style: {
-                        width: '18rem'
-                    },
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                            className: "card-body text-light",
-                            children: [
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
-                                    className: "card-title",
-                                    children: "Reading"
-                                }, void 0, false, {
-                                    fileName: "src/assets/AboutMe.jsx",
-                                    lineNumber: 42,
-                                    columnNumber: 25
-                                }, this),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                    className: "card-text",
-                                    children: " I am currently reading "
-                                }, void 0, false, {
-                                    fileName: "src/assets/AboutMe.jsx",
-                                    lineNumber: 43,
-                                    columnNumber: 25
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/assets/AboutMe.jsx",
-                            lineNumber: 41,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            className: "card-img-bottom",
-                            src: (0, _bookJpgDefault.default),
-                            alt: "Book Image"
-                        }, void 0, false, {
-                            fileName: "src/assets/AboutMe.jsx",
-                            lineNumber: 45,
-                            columnNumber: 21
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/assets/AboutMe.jsx",
-                    lineNumber: 40,
-                    columnNumber: 17
-                }, this)
-            }, void 0, false, {
+                className: "hobbiesList intro d-flex justify-content-center align-items-center",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {
+                        title: "Reading",
+                        text: "I enjoy reading about new topics or skills that I wish to learn. I am currently reading",
+                        imageURL: "https://m.media-amazon.com/images/I/61-E-LfL9BL._SL1500_.jpg"
+                    }, void 0, false, {
+                        fileName: "src/assets/AboutMe.jsx",
+                        lineNumber: 40,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {
+                        title: "Gaming",
+                        text: "I love playing video games, especially competitive games like Valorant or LOL",
+                        imageURL: "https://cdn1.epicgames.com/offer/24b9b5e323bc40eea252a10cdd3b2f10/EGS_LeagueofLegends_RiotGames_S2_1200x1600-905a96cea329205358868f5871393042"
+                    }, void 0, false, {
+                        fileName: "src/assets/AboutMe.jsx",
+                        lineNumber: 45,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {
+                        title: "Fitness",
+                        text: "I work out regularly to stay healthy and fit, a good mix of cardio and strength training.",
+                        imageURL: "https://images.pexels.com/photos/6550875/pexels-photo-6550875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    }, void 0, false, {
+                        fileName: "src/assets/AboutMe.jsx",
+                        lineNumber: 50,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "src/assets/AboutMe.jsx",
                 lineNumber: 39,
                 columnNumber: 13
@@ -22075,6 +22058,86 @@ $RefreshReg$(_c, "AboutMe");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./AboutMe.css":"5sW4F","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","../images/book.jpg":"8PjEj"}],"5sW4F":[function() {},{}],"8PjEj":[function() {},{}],"87yWV":[function() {},{}]},["9RH0m","eM1fv"], "eM1fv", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./AboutMe.css":"5sW4F","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Card":"6J4oV"}],"5sW4F":[function() {},{}],"6J4oV":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$3911 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$3911.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$3911.prelude(module);
 
-//# sourceMappingURL=Portfolio.64b87d6c.js.map
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Card);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+function Card({ title, text, imageURL }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "card m-3 bg-dark",
+        style: {
+            width: '18rem'
+        },
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "card-body text-light",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h5", {
+                        className: "card-title",
+                        children: title
+                    }, void 0, false, {
+                        fileName: "src/assets/Card.jsx",
+                        lineNumber: 7,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "card-text",
+                        children: [
+                            " ",
+                            text
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/assets/Card.jsx",
+                        lineNumber: 8,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/assets/Card.jsx",
+                lineNumber: 6,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "card-img-bottom m-1 p-1",
+                src: imageURL,
+                alt: "Book Image",
+                style: {
+                    width: 'auto',
+                    height: 'auto',
+                    maxHeight: '300px',
+                    objectFit: 'contain'
+                }
+            }, void 0, false, {
+                fileName: "src/assets/Card.jsx",
+                lineNumber: 10,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/assets/Card.jsx",
+        lineNumber: 5,
+        columnNumber: 9
+    }, this);
+}
+_c = Card;
+var _c;
+$RefreshReg$(_c, "Card");
+
+  $parcel$ReactRefreshHelpers$3911.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"gJZfK":[function() {},{}]},["9RH0m","eM1fv"], "eM1fv", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
+
+//# sourceMappingURL=public.64b87d6c.js.map
