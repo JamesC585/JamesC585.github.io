@@ -18583,60 +18583,87 @@ var _aboutMe = require("./AboutMe");
 var _aboutMeDefault = parcelHelpers.interopDefault(_aboutMe);
 var _sidebar = require("./Sidebar");
 var _sidebarDefault = parcelHelpers.interopDefault(_sidebar);
+var _card = require("./Card");
+var _cardDefault = parcelHelpers.interopDefault(_card);
 var _mainCss = require("./Main.css");
 function Main() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container-fluid p-0 bg-dark",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "row justify-content-center g-0",
-            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                className: "col-5 p-0 vh-100 d-flex flex-column align-items-center justify-content-center",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "container-fluid d-flex align-items-start justify-content-center",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                                src: "https://media.istockphoto.com/id/1221154640/photo/the-sun-shining-through-the-trees-of-a-park.jpg?s=612x612&w=0&k=20&c=FATUB_nw6IjkoOwo3GFQHsdCRpHmZr_26n6aX1TEC5I=",
-                                style: {
-                                    width: '400px',
-                                    height: '500px',
-                                    borderRadius: '15px'
-                                }
-                            }, void 0, false, {
-                                fileName: "src/assets/Main.jsx",
-                                lineNumber: 13,
-                                columnNumber: 21
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutMeDefault.default), {}, void 0, false, {
-                                fileName: "src/assets/Main.jsx",
-                                lineNumber: 15,
-                                columnNumber: 25
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/assets/Main.jsx",
-                        lineNumber: 12,
-                        columnNumber: 21
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidebarDefault.default), {}, void 0, false, {
-                        fileName: "src/assets/Main.jsx",
-                        lineNumber: 18,
-                        columnNumber: 21
-                    }, this)
-                ]
-            }, void 0, true, {
+        className: "container-fluid bg-black min-vh-100",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "row min-vh-100 justify-content-center align-items-center",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "col-5 d-flex flex-column align-items-center justify-content-center",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutMeDefault.default), {}, void 0, false, {
+                            fileName: "src/assets/Main.jsx",
+                            lineNumber: 13,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _sidebarDefault.default), {}, void 0, false, {
+                            fileName: "src/assets/Main.jsx",
+                            lineNumber: 14,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/assets/Main.jsx",
+                    lineNumber: 12,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
                 fileName: "src/assets/Main.jsx",
                 lineNumber: 11,
-                columnNumber: 17
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "row min-vh-100 justify-content-center align-items-center",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "col-8 d-flex flex-column align-items-center justify-content-center",
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {
+                            imageURL: "https://media.istockphoto.com/id/1221154640/photo/the-sun-shining-through-the-trees-of-a-park.jpg?s=612x612&w=0&k=20&c=FATUB_nw6IjkoOwo3GFQHsdCRpHmZr_26n6aX1TEC5I=",
+                            title: "MNIST AI",
+                            text: "Created MNIST AI",
+                            skills: [
+                                "Python",
+                                "Pytorch",
+                                "Machine Learning"
+                            ]
+                        }, void 0, false, {
+                            fileName: "src/assets/Main.jsx",
+                            lineNumber: 19,
+                            columnNumber: 21
+                        }, this),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {
+                            imageURL: "https://media.istockphoto.com/id/1221154640/photo/the-sun-shining-through-the-trees-of-a-park.jpg?s=612x612&w=0&k=20&c=FATUB_nw6IjkoOwo3GFQHsdCRpHmZr_26n6aX1TEC5I=",
+                            title: "MNIST AI",
+                            text: "Created MNIST AI",
+                            skills: [
+                                "Python",
+                                "Pytorch",
+                                "Machine Learning"
+                            ]
+                        }, void 0, false, {
+                            fileName: "src/assets/Main.jsx",
+                            lineNumber: 25,
+                            columnNumber: 21
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/assets/Main.jsx",
+                    lineNumber: 18,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "src/assets/Main.jsx",
+                lineNumber: 17,
+                columnNumber: 13
             }, this)
-        }, void 0, false, {
-            fileName: "src/assets/Main.jsx",
-            lineNumber: 10,
-            columnNumber: 13
-        }, this)
-    }, void 0, false, {
+        ]
+    }, void 0, true, {
         fileName: "src/assets/Main.jsx",
-        lineNumber: 9,
+        lineNumber: 10,
         columnNumber: 9
     }, this);
 }
@@ -18649,7 +18676,7 @@ $RefreshReg$(_c, "Main");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Navbar":"2hSNy","./AboutMe":"fCeEC","./Main.css":"gJZfK","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Sidebar":"bqfS9"}],"2hSNy":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Navbar":"2hSNy","./AboutMe":"fCeEC","./Main.css":"gJZfK","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Sidebar":"bqfS9","./Card":"6J4oV"}],"2hSNy":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$6a3d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$6a3d.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -21831,135 +21858,159 @@ var _labelDefault = parcelHelpers.interopDefault(_label);
 var _aboutMeCss = require("./AboutMe.css");
 function AboutMe() {
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "ms-4 w-50",
+        className: "container-fluid d-flex align-items-start justify-content-center",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                className: "d-inline",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                src: "https://media.istockphoto.com/id/1221154640/photo/the-sun-shining-through-the-trees-of-a-park.jpg?s=612x612&w=0&k=20&c=FATUB_nw6IjkoOwo3GFQHsdCRpHmZr_26n6aX1TEC5I=",
                 style: {
-                    color: 'white',
-                    fontWeight: 'bold'
-                },
-                children: [
-                    "Hi! I'm James Cao",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
-                        fileName: "src/assets/AboutMe.jsx",
-                        lineNumber: 10,
-                        columnNumber: 17
-                    }, this),
-                    "A Software Engineer"
-                ]
-            }, void 0, true, {
+                    width: '400px',
+                    height: '520px',
+                    borderRadius: '15px'
+                }
+            }, void 0, false, {
                 fileName: "src/assets/AboutMe.jsx",
                 lineNumber: 8,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: "mt-2 mb-1",
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "ms-3 p-2 w-50 bg-dark",
                 style: {
-                    color: 'white'
+                    borderRadius: '15px'
                 },
                 children: [
-                    "I am a full-stack software engineer with experience in languages such Python, Javascript and C++.",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                        className: "d-inline",
+                        style: {
+                            color: 'white',
+                            fontWeight: 'bold'
+                        },
+                        children: [
+                            "Hi! I'm James Cao",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/assets/AboutMe.jsx",
+                                lineNumber: 14,
+                                columnNumber: 21
+                            }, this),
+                            "A Software Engineer"
+                        ]
+                    }, void 0, true, {
                         fileName: "src/assets/AboutMe.jsx",
-                        lineNumber: 16,
+                        lineNumber: 12,
                         columnNumber: 17
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "mt-2 mb-1",
+                        style: {
+                            color: 'white'
+                        },
+                        children: [
+                            "I am a full-stack software engineer with experience in languages such Python, Javascript and C++.",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/assets/AboutMe.jsx",
+                                lineNumber: 20,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/assets/AboutMe.jsx",
+                                lineNumber: 21,
+                                columnNumber: 21
+                            }, this),
+                            "I am most familiar with the MERN stack, which includes MongoDB, Express.js, React.js, and Node.js.",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/assets/AboutMe.jsx",
+                                lineNumber: 24,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/assets/AboutMe.jsx",
+                                lineNumber: 25,
+                                columnNumber: 21
+                            }, this),
+                            "My cloud technology proficiency includes AWS cloud services, leveraging API calls, Implementing CI/CD pipelines, and managing databases.",
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/assets/AboutMe.jsx",
+                                lineNumber: 28,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                                fileName: "src/assets/AboutMe.jsx",
+                                lineNumber: 29,
+                                columnNumber: 21
+                            }, this),
+                            "I am also familiar with other domains such as Networking with Cisco, Machine Learning using Pytorch, and VR/AR with Unity."
+                        ]
+                    }, void 0, true, {
                         fileName: "src/assets/AboutMe.jsx",
                         lineNumber: 17,
                         columnNumber: 17
                     }, this),
-                    "I am most familiar with the MERN stack, which includes MongoDB, Express.js, React.js, and Node.js.",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
+                        text: "Python"
+                    }, void 0, false, {
                         fileName: "src/assets/AboutMe.jsx",
-                        lineNumber: 20,
+                        lineNumber: 32,
                         columnNumber: 17
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
+                        text: "Javascript"
+                    }, void 0, false, {
                         fileName: "src/assets/AboutMe.jsx",
-                        lineNumber: 21,
+                        lineNumber: 33,
                         columnNumber: 17
                     }, this),
-                    "My cloud technology proficiency includes AWS cloud services, leveraging API calls, Implementing CI/CD pipelines, and managing databases.",
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
+                        text: "HTML"
+                    }, void 0, false, {
                         fileName: "src/assets/AboutMe.jsx",
-                        lineNumber: 24,
+                        lineNumber: 34,
                         columnNumber: 17
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
+                        text: "CSS"
+                    }, void 0, false, {
                         fileName: "src/assets/AboutMe.jsx",
-                        lineNumber: 25,
+                        lineNumber: 35,
                         columnNumber: 17
                     }, this),
-                    "I am also familiar with other domains such as Networking with Cisco, Machine Learning using Pytorch, and VR/AR with Unity."
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
+                        text: "C++"
+                    }, void 0, false, {
+                        fileName: "src/assets/AboutMe.jsx",
+                        lineNumber: 36,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
+                        text: "React"
+                    }, void 0, false, {
+                        fileName: "src/assets/AboutMe.jsx",
+                        lineNumber: 37,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
+                        text: "AWS Lambda"
+                    }, void 0, false, {
+                        fileName: "src/assets/AboutMe.jsx",
+                        lineNumber: 38,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
+                        text: "Pytorch"
+                    }, void 0, false, {
+                        fileName: "src/assets/AboutMe.jsx",
+                        lineNumber: 39,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
+                        text: "Unity"
+                    }, void 0, false, {
+                        fileName: "src/assets/AboutMe.jsx",
+                        lineNumber: 40,
+                        columnNumber: 17
+                    }, this)
                 ]
             }, void 0, true, {
                 fileName: "src/assets/AboutMe.jsx",
-                lineNumber: 13,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
-                text: "Python"
-            }, void 0, false, {
-                fileName: "src/assets/AboutMe.jsx",
-                lineNumber: 28,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
-                text: "Javascript"
-            }, void 0, false, {
-                fileName: "src/assets/AboutMe.jsx",
-                lineNumber: 29,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
-                text: "HTML"
-            }, void 0, false, {
-                fileName: "src/assets/AboutMe.jsx",
-                lineNumber: 30,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
-                text: "CSS"
-            }, void 0, false, {
-                fileName: "src/assets/AboutMe.jsx",
-                lineNumber: 31,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
-                text: "C++"
-            }, void 0, false, {
-                fileName: "src/assets/AboutMe.jsx",
-                lineNumber: 32,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
-                text: "React"
-            }, void 0, false, {
-                fileName: "src/assets/AboutMe.jsx",
-                lineNumber: 33,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
-                text: "AWS Lambda"
-            }, void 0, false, {
-                fileName: "src/assets/AboutMe.jsx",
-                lineNumber: 34,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
-                text: "Pytorch"
-            }, void 0, false, {
-                fileName: "src/assets/AboutMe.jsx",
-                lineNumber: 35,
-                columnNumber: 13
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
-                text: "Unity"
-            }, void 0, false, {
-                fileName: "src/assets/AboutMe.jsx",
-                lineNumber: 36,
+                lineNumber: 11,
                 columnNumber: 13
             }, this)
         ]
@@ -22015,6 +22066,118 @@ $RefreshReg$(_c, "Label");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react/jsx-dev-runtime":"dVPUn"}],"gJZfK":[function() {},{}]},["9RH0m","eM1fv"], "eM1fv", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
+},{"react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react/jsx-dev-runtime":"dVPUn"}],"gJZfK":[function() {},{}],"6J4oV":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$3911 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$3911.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$3911.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>Card);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _label = require("./Label");
+var _labelDefault = parcelHelpers.interopDefault(_label);
+function Card({ title, text, imageURL, skills }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "container-fluid d-flex align-items-center justify-content-center m-2",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                href: "https://github.com/JamesC585",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                    src: imageURL,
+                    style: {
+                        width: "500px",
+                        height: "280px",
+                        objectFit: "cover",
+                        borderRadius: "15px"
+                    }
+                }, void 0, false, {
+                    fileName: "src/assets/Card.jsx",
+                    lineNumber: 9,
+                    columnNumber: 17
+                }, this)
+            }, void 0, false, {
+                fileName: "src/assets/Card.jsx",
+                lineNumber: 8,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "bg-dark ms-3",
+                style: {
+                    color: "white",
+                    borderRadius: "15px",
+                    padding: "10px",
+                    width: "500px",
+                    height: "280px",
+                    overflowY: "auto"
+                },
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        className: "d-inline",
+                        style: {
+                            color: "white",
+                            fontWeight: "bold"
+                        },
+                        children: title
+                    }, void 0, false, {
+                        fileName: "src/assets/Card.jsx",
+                        lineNumber: 13,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/assets/Card.jsx",
+                        lineNumber: 16,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "d-inline",
+                        children: text
+                    }, void 0, false, {
+                        fileName: "src/assets/Card.jsx",
+                        lineNumber: 17,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("br", {}, void 0, false, {
+                        fileName: "src/assets/Card.jsx",
+                        lineNumber: 20,
+                        columnNumber: 17
+                    }, this),
+                    skills.map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
+                            text: skill
+                        }, void 0, false, {
+                            fileName: "src/assets/Card.jsx",
+                            lineNumber: 22,
+                            columnNumber: 17
+                        }, this))
+                ]
+            }, void 0, true, {
+                fileName: "src/assets/Card.jsx",
+                lineNumber: 12,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/assets/Card.jsx",
+        lineNumber: 6,
+        columnNumber: 9
+    }, this);
+}
+_c = Card;
+var _c;
+$RefreshReg$(_c, "Card");
+
+  $parcel$ReactRefreshHelpers$3911.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Label":"dUCFR"}]},["9RH0m","eM1fv"], "eM1fv", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=public.64b87d6c.js.map
