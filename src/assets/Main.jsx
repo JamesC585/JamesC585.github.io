@@ -1,9 +1,7 @@
 import React from "react";
-import Navbar from "./Navbar";
 import AboutMe from "./AboutMe";
 import Sidebar from "./Sidebar";
 import Card from  './Card';
-import "./Main.css";
 
 export default function Main() {
     return (

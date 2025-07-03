@@ -1,6 +1,5 @@
 import React from "react";
 import Label from "./Label";
-import "./AboutMe.css";
 
 export default function AboutMe(){
     return(
@@ -9,7 +8,7 @@ export default function AboutMe(){
                     style = {{width : '400px', height : '520px', borderRadius : '15px' }}/>
             
             <div className="ms-3 p-2 w-50 bg-dark" style = {{borderRadius : '15px'}}>
-                <h1 className="d-inline" style={{color: 'white', fontWeight: 'bold'}}>
+                <h1 className="d-inline" style={{color: 'white', fontWeight: 'bold', fontFamily: 'Arial'}}>
                     Hi! I'm James Cao
                     <br />
                     A Software Engineer
