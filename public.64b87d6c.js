@@ -18623,8 +18623,8 @@ function Main() {
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {
                             imageURL: "https://media.istockphoto.com/id/1221154640/photo/the-sun-shining-through-the-trees-of-a-park.jpg?s=612x612&w=0&k=20&c=FATUB_nw6IjkoOwo3GFQHsdCRpHmZr_26n6aX1TEC5I=",
-                            title: "MNIST AI",
-                            text: "Created MNIST AI",
+                            title: "HAM10000",
+                            text: "Created HAM10000 AI",
                             skills: [
                                 "Python",
                                 "Pytorch",
@@ -18636,7 +18636,7 @@ function Main() {
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cardDefault.default), {
-                            imageURL: "https://media.istockphoto.com/id/1221154640/photo/the-sun-shining-through-the-trees-of-a-park.jpg?s=612x612&w=0&k=20&c=FATUB_nw6IjkoOwo3GFQHsdCRpHmZr_26n6aX1TEC5I=",
+                            imageURL: "https://upload.wikimedia.org/wikipedia/commons/b/b1/MNIST_dataset_example.png",
                             title: "MNIST AI",
                             text: "Created MNIST AI",
                             skills: [
