@@ -15,7 +15,7 @@ export default function Main() {
             <div className="row min-vh-100 justify-content-center align-items-center">
                 <div className="col-8 d-flex flex-column align-items-center justify-content-center">
                     <Card 
-                    imageURL = "https://media.istockphoto.com/id/1221154640/photo/the-sun-shining-through-the-trees-of-a-park.jpg?s=612x612&w=0&k=20&c=FATUB_nw6IjkoOwo3GFQHsdCRpHmZr_26n6aX1TEC5I="
+                    imageURL = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlxLzV8KAzovbvyTYGq8Z6c7Hyk8S2uYZtAA&s"
                     title = "HAM10000"
                     text = "Created HAM10000 AI"
                     skills = {["Python", "Pytorch", "Machine Learning"]}
@@ -24,7 +24,7 @@ export default function Main() {
                     imageURL = "https://upload.wikimedia.org/wikipedia/commons/b/b1/MNIST_dataset_example.png"
                     title = "MNIST AI"
                     text = "Created MNIST AI"
-                    skills = {["Python", "Pytorch", "Machine Learning"]}
+                    skills = {["Python", "MLP", "Machine Learning"]}
                     />
                 </div>
             </div>
