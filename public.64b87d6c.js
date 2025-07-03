@@ -18676,7 +18676,7 @@ $RefreshReg$(_c, "Main");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Navbar":"2hSNy","./AboutMe":"fCeEC","./Main.css":"gJZfK","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Sidebar":"bqfS9","./Card":"6J4oV"}],"2hSNy":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Navbar":"2hSNy","./AboutMe":"fCeEC","./Sidebar":"bqfS9","./Card":"6J4oV","./Main.css":"gJZfK","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"2hSNy":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$6a3d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$6a3d.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -22029,7 +22029,7 @@ $RefreshReg$(_c, "AboutMe");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./AboutMe.css":"5sW4F","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Label":"dUCFR"}],"5sW4F":[function() {},{}],"dUCFR":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Label":"dUCFR","./AboutMe.css":"5sW4F","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dUCFR":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$3ca7 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$3ca7.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -22066,7 +22066,7 @@ $RefreshReg$(_c, "Label");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","react/jsx-dev-runtime":"dVPUn"}],"gJZfK":[function() {},{}],"6J4oV":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"5sW4F":[function() {},{}],"6J4oV":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$3911 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 $parcel$ReactRefreshHelpers$3911.init();
 var prevRefreshReg = globalThis.$RefreshReg$;
@@ -22149,12 +22149,12 @@ function Card({ title, text, imageURL, skills }) {
                         lineNumber: 20,
                         columnNumber: 17
                     }, this),
-                    skills.map((skill)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
+                    skills.map((skill, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _labelDefault.default), {
                             text: skill
-                        }, void 0, false, {
+                        }, index, false, {
                             fileName: "src/assets/Card.jsx",
                             lineNumber: 22,
-                            columnNumber: 17
+                            columnNumber: 21
                         }, this))
                 ]
             }, void 0, true, {
@@ -22178,6 +22178,6 @@ $RefreshReg$(_c, "Card");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Label":"dUCFR"}]},["9RH0m","eM1fv"], "eM1fv", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","./Label":"dUCFR","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"gJZfK":[function() {},{}]},["9RH0m","eM1fv"], "eM1fv", "parcelRequire94c2", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=public.64b87d6c.js.map
