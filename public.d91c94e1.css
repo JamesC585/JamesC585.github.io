@@ -3,6 +3,23 @@
  * Copyright 2019-2024 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/icons/blob/main/LICENSE)
  */
+#lineBreak {
+  border: 3px solid #fff;
+  border-radius: 5px;
+  width: 100%;
+  height: 1px;
+}
+
+#displayButtons {
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 20px;
+  font-size: 40px;
+  display: flex;
+}
+
 :root, [data-bs-theme="light"] {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -21627,123 +21644,5 @@ textarea.form-control-lg {
 
 .bi-globe-europe-africa-fill:before {
   content: "爛";
-}
-
-@media (width <= 1300px) {
-  .sidebar {
-    display: none !important;
-  }
-}
-
-.sidebar {
-  pad: 0;
-  width: 16.67%;
-  margin: 0;
-  position: fixed;
-}
-
-#displayButton {
-  color: #fff;
-  background-color: #444343;
-  border: 1px #fff;
-  border-radius: 20px;
-  justify-content: center;
-  align-items: center;
-  width: 200px;
-  height: 50px;
-  margin-top: 10px;
-  font-family: Arial;
-  display: flex;
-}
-
-#lineBreak {
-  border: 3px solid #fff;
-  border-radius: 5px;
-  width: 100%;
-  height: 1px;
-}
-
-#contactButton {
-  color: #fff;
-  background-color: #100b24;
-  border: 1px #fff;
-  border-radius: 20px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  width: 150px;
-  height: 40px;
-  margin-top: 10px;
-  font-family: Arial;
-  display: flex;
-}
-
-.infoDiv {
-  flex-direction: center;
-  color: #fff;
-  font: Arial;
-  justify-content: left;
-  align-items: center;
-  gap: 10px;
-  width: 200px;
-  margin-top: 20px;
-  margin-bottom: 0;
-  font-size: 18px;
-  display: flex;
-}
-
-.infoDiv .picture {
-  color: #fac004;
-  margin-right: 8px;
-  font-size: 30px;
-}
-
-#displayButtons {
-  flex-direction: center;
-  justify-content: center;
-  align-items: center;
-  gap: 25px;
-  margin-top: 20px;
-  font-size: 40px;
-  display: flex;
-}
-
-.navBarColor {
-  text-align: center;
-  width: 150px;
-  font: Arial;
-  font-size: 30px;
-  font-weight: bold;
-  color: #fac004 !important;
-}
-
-.intro {
-  border-radius: 10px;
-  overflow: auto;
-}
-
-.introText {
-  color: #e6d8d8;
-  font: Arial;
-}
-
-@media (width <= 1300px) {
-  .main {
-    width: 100vw !important;
-  }
-}
-
-.main {
-  background-color: #181818;
-}
-
-.underline {
-  border: 3px solid #ffc402;
-  border-radius: 5px;
-  width: 100%;
-  height: 1px;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
 }
 /*# sourceMappingURL=public.d91c94e1.css.map */
