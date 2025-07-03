@@ -1,0 +1,11 @@
+body, html {
+    box-sizing : border-box;  
+    height : 100%;
+    width : 100%;
+    overflow : auto;
+    margin : 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}

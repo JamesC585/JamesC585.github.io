@@ -1,0 +1,9 @@
+.navBarColor{
+    color: rgb(250, 192, 4) !important;
+    /* background-color: rgb(102, 102, 102) !important; */
+    width:150px;
+    text-align:center;
+    font: Arial;
+    font-size: 30px;
+    font-weight: bold;
+}

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.6",
     "bootstrap-icons": "^1.13.1",
     "parcel": "^2.15.1",
@@ -7,7 +8,12 @@
     "react-dom": "^19.1.0"
   },
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
-  }
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "homepage": "https://JamesC585.github.io/"
 }
