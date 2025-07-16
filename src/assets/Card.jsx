@@ -1,11 +1,11 @@
 import React from 'react';
 import Label from './Label';
 
-export default function Card({title, text, imageURL, skills}) {
+export default function Card({title, text, imageURL, skills, ref}) {
     return (
         <div className="container-fluid d-flex align-items-center justify-content-center m-2">
 
-            <a href="https://github.com/JamesC585" target="_blank" rel="noopener noreferrer">
+            <a href={ref} target="_blank" rel="noopener noreferrer">
                 <img src={imageURL} style={{width :"500px", height:"280px", objectFit: "cover", borderRadius:"15px"}}/>
             </a>
 

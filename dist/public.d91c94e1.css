@@ -14,4 +14,12 @@
   font-size: 40px;
   display: flex;
 }
+
+.btn.buttons:hover {
+  background-color: #686868;
+}
+
+.active-btn {
+  background-color: #686868 !important;
+}
 /*# sourceMappingURL=public.d91c94e1.css.map */

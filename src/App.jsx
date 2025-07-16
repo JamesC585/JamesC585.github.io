@@ -1,11 +1,15 @@
 import React from 'react';
-import Sidebar from './assets/Sidebar';
+import {HashRouter, Routes, Route} from 'react-router-dom';
 import Main from './assets/Main';
+import Portfolio from './assets/Portfolio';
 
 export default function App() {
   return (
-    <main>
-        <Main />
-    </main>
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/Portfolio" element={<Portfolio />} />
+      </Routes>
+    </HashRouter>
   );
 }

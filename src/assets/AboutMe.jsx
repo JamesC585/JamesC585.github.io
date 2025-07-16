@@ -32,10 +32,8 @@ export default function AboutMe(){
                 <Label text="CSS"/>
                 <Label text="C++"/>
                 <Label text="React"/>
-                <Label text="AWS Lambda"/>
+                <Label text="AWS"/>
                 <Label text="Pytorch"/>
-                <Label text="Unity"/>
-
             </div>
         </div>
 
